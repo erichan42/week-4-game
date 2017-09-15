@@ -1,0 +1,153 @@
+@font-face {
+	font-family:"pokemon";
+	src: url("../fonts/pokemon.ttf");
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	font-family:"pokemon";
+}
+
+ul {
+	list-style-type:none;
+}
+
+li {
+	float:left;
+}
+
+img {
+	height:100px;
+	width:100px;
+}
+
+body {
+	background:#f8f8f8;
+}
+
+.group {
+	margin:25px 15px 25px 15px;
+	padding: 15px 15px 15px 15px;
+	border:2px solid black;
+}
+
+.newImg {
+	height:200px;
+	width:200px;	
+}
+
+#actionBox {
+	width:100%;
+	height:150px;
+	position:absolute;
+	z-index:-100;
+	background:#f8f8f8;
+}
+
+#actionBox2 {
+	width:40%;
+	height:150px;
+	position:absolute;
+	right:0;
+	z-index:-50;
+	background-color:#f8f8f8;
+}
+
+p {
+	margin-left:60px;
+	margin-top:5px;
+	font-size:24px;
+	margin-bottom:0;
+}
+
+#contain {
+	margin-top:35px;
+}
+
+button {
+	font-size:34px;
+	height:45px;
+	background:#f8f8f8;
+	border:none;
+	text-align:left;
+}
+
+.btnGroup1 {
+	width:245px;
+	position:absolute;
+	right:0;
+	right:270px;
+	margin-top:23px;
+}
+
+.btnGroup2 {
+	width:245px;
+	position:absolute;
+	right:0;
+	margin-right:25px;
+	margin-top:23px;
+}
+
+#attBtn {
+	margin-bottom:2px;
+}
+
+#pkmnBtn {
+	margin-bottom:2px;
+}
+
+.bottom {
+	overflow:auto;
+}
+
+.pokcontainer1 {
+	margin-bottom:25px;
+	position:relative;
+	margin-left:60%;
+}
+
+.pokcontainer2 {
+	margin-bottom:25px;
+	margin-left:50px;
+	width:50%;
+}
+
+#hero {
+	margin-right:5px;
+}
+
+header {
+	height:90px;
+	background:black;
+}
+
+.heading {
+	font-size:36px;
+	font-weight:bold;
+	color:white;
+	margin:0;
+	margin-left:65px;
+	padding:27.5px;
+	text-align:center;
+	float:left;
+}
+
+.navbar {
+	float:right;
+	margin-right:10px;
+}
+
+.navbar-li {
+	color:#f8f8f8;
+	font-size:16px;
+	margin-top:35px;
+	margin-bottom:35px;
+	padding-left:10px;
+	padding-right:10px;
+	display:inline-block;
+}
+
+.navButton {
+	font-size:16px;
+	color:#f8f8f8;
+	background:black;
+}
